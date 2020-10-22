@@ -8,5 +8,5 @@ Then all you have to do
 ```
 python3 app.py
 ```
-Run the website on http://localhost:500
+Run the website on http://localhost:5000
 
