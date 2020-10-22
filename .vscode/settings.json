@@ -1,5 +1,6 @@
 {
     "files.watcherExclude": {
         "**/venv/**": true
-    }
+    },
+    "python.linting.enabled": true
 }
