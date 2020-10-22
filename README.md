@@ -8,7 +8,7 @@ Create a virtual env and install the required dependancies.
 ```
 python3 -m venv flask-blog-env
 source flask-blog-env/bin/activate
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 Then, create the required migrations:
 
