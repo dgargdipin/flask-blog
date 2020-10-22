@@ -1,10 +1,11 @@
-##Basic Flask blog app with jinja2 as rendering engine
+## Basic Flask blog app with jinja2 as rendering engine
 ### Installation
+Clone the repo.
 ```
 cd flask-blog
 pip install -r requirements.txt
 ```
-Then all you have to do
+Then,
 ```
 python3 app.py
 ```
