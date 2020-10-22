@@ -3,9 +3,21 @@
 Clone the repo.
 ```
 cd flask-blog
-pip install -r requirements.txt
 ```
-Then,
+Create a virtual env and install the required dependancies.
+```
+python3 -m venv flask-blog-env
+source flask-blog-env/bin/activate
+pip install -r requirements.tx
+```
+Then, create the required migrations:
+
+```
+flask db init
+flask db migrate
+flask db upgrade
+```
+Then run the app
 ```
 python3 app.py
 ```
